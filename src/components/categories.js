@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useRouter } from 'vue-router';
 import Swal from 'sweetalert2'
 
-axios.defaults.baseURL = 'http://p3portfolio.com/l9-admin-panel/public/api/';
+axios.defaults.baseURL = 'https://p3portfolio.com/l9-admin-panel/public/api/';
 
 export default function useCategories()
 {
